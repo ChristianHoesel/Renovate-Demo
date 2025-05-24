@@ -6,5 +6,3 @@ This repository demonstrates an issue with Renovate bot's handling of dependenci
 
 When a Gradle dependency is specified with a classifier and extension (using the format `group:name:version:classifier@extension`), Renovate bot may not properly detect and update this dependency, while it successfully updates the same dependency when specified in the standard format (`group:name:version`).
 
-This is especially problematic for projects that require specific classifiers (like `sources`, `javadoc`, etc.) for certain dependencies.
-
