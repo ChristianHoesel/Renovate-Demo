@@ -1,0 +1,10 @@
+// Root project configuration
+allprojects {
+    group = 'com.example'
+    version = '1.0.0'
+}
+
+// Add tasks for the root project if needed
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
