@@ -1,4 +1,3 @@
 rootProject.name = 'renovate-gradle-issue'
 
 include 'project-with-classifier'
-include 'project-without-classifier'
