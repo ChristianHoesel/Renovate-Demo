@@ -7,7 +7,7 @@ When a Gradle dependency is specified with a classifier and extension (using the
 
 ## Expected behavior
 Renovate recognizes gradle dependencies with classifier and/or extension and makes pr if an update is available.
-In this project renovate should update `commons-io:commons-io:2.11.0:sources@jar` in `project-with-classifier\build.gradle`
+In this project renovate should update `commons-io:commons-io:2.11.0:sources@jar` in [`project-with-classifier\build.gradle`](project-with-classifier/build.gradle)  
 
 ## Link to the Renovate issue or Discussion
 
